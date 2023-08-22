@@ -1,10 +1,13 @@
 import styled from 'styled-components'
 
 export const LayoutContainer = styled.div`
-  margin: 5rem auto;
-  max-width: 70rem;
+  max-width: 74rem;
   height: calc(100vh - 10rem);
-  padding-top: 2.5rem;
+  margin: 5rem auto;
+  padding: 2.5rem;
+
+  display: flex;
+  flex-direction: column;
 
   background: ${({ theme }) => theme['gray-800']};
 
